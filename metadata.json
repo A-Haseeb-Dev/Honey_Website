@@ -1,0 +1,7 @@
+{
+  "name": "Honey - Pure Gold Direct to You",
+  "description": "A premium e-commerce platform for pure, organic honey featuring multi-section storytelling, direct sales integration, and AI-powered honey recipe generation.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
