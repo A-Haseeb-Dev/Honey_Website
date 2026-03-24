@@ -12,6 +12,8 @@ import CTA from './components/Widgets/CTA';
 import Footer from './components/Layout/Footer';
 import FloatingSocial from './components/Layout/FloatingSocial';
 import RecipeGen from './components/Widgets/RecipeGen';
+import Preloader from './components/Layout/Preloader';
+import CustomCursor from './components/Layout/CustomCursor';
 import { CartProvider } from './CartContext';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -30,6 +32,8 @@ const App: React.FC = () => {
 
   return (
     <CartProvider>
+      <Preloader />
+      <CustomCursor />
       <div className="relative min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-grow">
